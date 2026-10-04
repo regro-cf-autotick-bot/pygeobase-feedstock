@@ -6,11 +6,11 @@ package:
 
 source:
   fn: pygeobase-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/p/pygeobase/pygeobase-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/p/pygeobase/pygeobase-{{ version }}.tar.gz
   sha256: 49f2af0b9dd4e147e8abd51bb36f66e174f29db86c5ac0b14a8b379709d1f6b1
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
